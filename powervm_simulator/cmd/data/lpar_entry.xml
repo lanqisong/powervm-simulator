@@ -1,0 +1,158 @@
+<entry xmlns="http://www.w3.org/2005/Atom" xmlns:ns2="http://a9.com/-/spec/opensearch/1.1/" xmlns:ns3="http://www.w3.org/1999/xhtml">
+    <id>089FFB20-5D19-4A8C-BB80-13650627D985</id>
+    <title>LogicalPartition</title>
+    <published>2013-09-09T12:04:24.364-04:00</published>
+    <link rel="SELF" href="http://9.1.2.3:12080/rest/api/uom/LogicalPartition/089FFB20-5D19-4A8C-BB80-13650627D985"/>
+    <author>
+        <name>IBM Power Systems Management Console</name>
+    </author>
+    <content type="application/vnd.ibm.powervm.uom+xml; type=LogicalPartition">
+        <LogicalPartition:LogicalPartition xmlns:LogicalPartition="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns="http://www.ibm.com/xmlns/systems/power/firmware/uom/mc/2012_10/" xmlns:ns2="http://www.w3.org/XML/1998/namespace/k2" schemaVersion="V1_0">
+<Metadata>
+    <Atom>
+        <AtomID>089FFB20-5D19-4A8C-BB80-13650627D985</AtomID>
+        <AtomCreated>1378742169504</AtomCreated>
+    </Atom>
+</Metadata>
+<AllowPerformanceDataCollection kb="CUD" kxe="false">false</AllowPerformanceDataCollection>
+<AssociatedPartitionProfile kb="CUD" kxe="false" href="http://9.1.2.3:12080/rest/api/uom/LogicalPartition/089FFB20-5D19-4A8C-BB80-13650627D985/LogicalPartitionProfile/fb409cc2-c059-3d46-b8ce-f29887c674ba" rel="related"/>
+<AvailabilityPriority kb="CUD" kxe="false">127</AvailabilityPriority>
+<CurrentAllocatedBarrierSynchronizationRegisterArrays kb="CUA" kxe="false">0</CurrentAllocatedBarrierSynchronizationRegisterArrays>
+<CurrentProcessorCompatibilityMode kb="ROO" kxe="false">POWER6_Plus</CurrentProcessorCompatibilityMode>
+<CurrentProfileSync kb="CUD" kxe="false">On</CurrentProfileSync>
+<IsConnectionMonitoringEnabled kb="CUD" kxe="false">true</IsConnectionMonitoringEnabled>
+<IsOperationInProgress kb="ROR" kxe="false">false</IsOperationInProgress>
+<IsRedundantErrorPathReportingEnabled kb="CUD" kxe="false">false</IsRedundantErrorPathReportingEnabled>
+<IsTimeReferencePartition kb="CUD" kxe="false">false</IsTimeReferencePartition>
+<IsVirtualServiceAttentionLEDOn kb="ROR" kxe="false">false</IsVirtualServiceAttentionLEDOn>
+<IsVirtualTrustedPlatformModuleEnabled kb="CUD" kxe="false">false</IsVirtualTrustedPlatformModuleEnabled>
+<KeylockPosition kb="CUD" kxe="false">normal</KeylockPosition>
+<LogicalSerialNumber kb="CUD" kxe="false">0604C6A9</LogicalSerialNumber>
+<OperatingSystemVersion kb="CUD" kxe="false">Linux/Red Hat 2.6.32-358.el6.ppc64 6.4</OperatingSystemVersion>
+<PartitionCapabilities kxe="false" kb="CUD" schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <DynamicLogicalPartitionIOCapable kb="ROR" kxe="false">true</DynamicLogicalPartitionIOCapable>
+    <DynamicLogicalPartitionMemoryCapable kb="ROR" kxe="false">false</DynamicLogicalPartitionMemoryCapable>
+    <DynamicLogicalPartitionProcessorCapable kb="ROR" kxe="false">true</DynamicLogicalPartitionProcessorCapable>
+    <InternalAndExternalIntrusionDetectionCapable kxe="false" kb="CUD">false</InternalAndExternalIntrusionDetectionCapable>
+    <ResourceMonitoringControlOperatingSystemShutdownCapable kb="CUD" kxe="false">false</ResourceMonitoringControlOperatingSystemShutdownCapable>
+</PartitionCapabilities>
+<PartitionID kb="COD" kxe="false">9</PartitionID>
+<PartitionIOConfiguration kb="CUD" kxe="false" schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <EthernetAdapterCapabilities kb="CUD" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </EthernetAdapterCapabilities>
+    <MaximumVirtualIOSlots kb="CUD" kxe="false">64</MaximumVirtualIOSlots>
+    <ProfileIOSlots kb="CUD" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+    </ProfileIOSlots>
+    <CurrentMaximumVirtualIOSlots kb="ROR" kxe="false">64</CurrentMaximumVirtualIOSlots>
+</PartitionIOConfiguration>
+<PartitionMemoryConfiguration kb="CUD" kxe="false" schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <ActiveMemoryExpansionEnabled kb="CUD" kxe="false">false</ActiveMemoryExpansionEnabled>
+    <BarrierSynchronizationRegisterArrayCount kb="CUD" kxe="false">0</BarrierSynchronizationRegisterArrayCount>
+    <DesiredHugePageCount kb="CUD" kxe="false">0</DesiredHugePageCount>
+    <DesiredMemory kb="CUD" kxe="false">512</DesiredMemory>
+    <ExpansionFactor kb="CUD" kxe="false">0.0</ExpansionFactor>
+    <HardwarePageTableRatio kb="CUD" kxe="false">6</HardwarePageTableRatio>
+    <MaximumHugePageCount kb="CUD" kxe="false">0</MaximumHugePageCount>
+    <MaximumMemory kb="CUD" kxe="false">512</MaximumMemory>
+    <MinimumHugePageCount kb="CUD" kxe="false">0</MinimumHugePageCount>
+    <MinimumMemory kxe="false" kb="CUD">512</MinimumMemory>
+    <CurrentBarrierSynchronizationRegisterArrays kb="ROR" kxe="false">0</CurrentBarrierSynchronizationRegisterArrays>
+    <CurrentExpansionFactor kxe="false" kb="ROR">0.0</CurrentExpansionFactor>
+    <CurrentHardwarePageTableRatio kb="ROR" kxe="false">6</CurrentHardwarePageTableRatio>
+    <CurrentHugePageCount kb="ROR" kxe="false">0</CurrentHugePageCount>
+    <CurrentMaximumHugePageCount kb="ROR" kxe="false">0</CurrentMaximumHugePageCount>
+    <CurrentMaximumMemory kxe="false" kb="ROR">512</CurrentMaximumMemory>
+    <CurrentMemory kb="ROR" kxe="false">512</CurrentMemory>
+    <CurrentMinimumHugePageCount kb="ROR" kxe="false">0</CurrentMinimumHugePageCount>
+    <CurrentMinimumMemory kb="ROR" kxe="false">512</CurrentMinimumMemory>
+    <MemoryExpansionEnabled kb="ROR" kxe="false">false</MemoryExpansionEnabled>
+    <RedundantErrorPathReportingEnabled kb="ROR" kxe="false">false</RedundantErrorPathReportingEnabled>
+    <RuntimeHugePageCount kb="ROR" kxe="false">0</RuntimeHugePageCount>
+    <RuntimeMemory kb="ROR" kxe="false">256</RuntimeMemory>
+    <RuntimeMinimumMemory kb="ROR" kxe="false">512</RuntimeMinimumMemory>
+    <SharedMemoryEnabled kb="CUD" kxe="false">false</SharedMemoryEnabled>
+</PartitionMemoryConfiguration>
+<PartitionName kb="CUR" kxe="false">z3-9-5-126-127-00000001</PartitionName>
+<PartitionProcessorConfiguration kb="CUD" kxe="false" schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+    <HasDedicatedProcessors kb="CUD" kxe="false">false</HasDedicatedProcessors>
+    <SharedProcessorConfiguration kxe="false" kb="CUD" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+        <DesiredProcessingUnits kb="CUD" kxe="false">1.5</DesiredProcessingUnits>
+        <DesiredVirtualProcessors kb="CUD" kxe="false">2</DesiredVirtualProcessors>
+        <MaximumProcessingUnits kb="CUD" kxe="false">2.5</MaximumProcessingUnits>
+        <MaximumVirtualProcessors kb="CUD" kxe="false">3</MaximumVirtualProcessors>
+        <MinimumProcessingUnits kb="CUD" kxe="false">0.5</MinimumProcessingUnits>
+        <MinimumVirtualProcessors kb="CUD" kxe="false">1</MinimumVirtualProcessors>
+        <SharedProcessorPoolID kb="CUD" kxe="false">9</SharedProcessorPoolID>
+        <UncappedWeight kb="CUD" kxe="false">128</UncappedWeight>
+    </SharedProcessorConfiguration>
+    <SharingMode kb="CUD" kxe="false">uncapped</SharingMode>
+    <CurrentHasDedicatedProcessors kxe="false" kb="ROR">false</CurrentHasDedicatedProcessors>
+    <CurrentSharingMode kb="ROR" kxe="false">uncapped</CurrentSharingMode>
+    <RuntimeHasDedicatedProcessors kxe="false" kb="ROR">false</RuntimeHasDedicatedProcessors>
+    <CurrentSharedProcessorConfiguration kb="ROR" kxe="false" schemaVersion="V1_0">
+        <Metadata>
+            <Atom/>
+        </Metadata>
+        <AllocatedVirtualProcessors kb="ROR" kxe="false">1</AllocatedVirtualProcessors>
+        <CurrentMaximumProcessingUnits kb="ROR" kxe="false">0.5</CurrentMaximumProcessingUnits>
+        <CurrentMinimumProcessingUnits kb="ROR" kxe="false">0.5</CurrentMinimumProcessingUnits>
+        <CurrentProcessingUnits kb="ROR" kxe="false">0.5</CurrentProcessingUnits>
+        <CurrentSharedProcessorPoolID kb="ROR" kxe="false">0</CurrentSharedProcessorPoolID>
+        <CurrentUncappedWeight kb="ROR" kxe="false">128</CurrentUncappedWeight>
+        <CurrentMinimumVirtualProcessors kb="ROR" kxe="false">1</CurrentMinimumVirtualProcessors>
+        <CurrentMaximumVirtualProcessors kb="ROR" kxe="false">1</CurrentMaximumVirtualProcessors>
+        <RuntimeProcessingUnits kb="ROR" kxe="false">0.00</RuntimeProcessingUnits>
+        <RuntimeUncappedWeight kb="ROR" kxe="false">0</RuntimeUncappedWeight>
+    </CurrentSharedProcessorConfiguration>
+</PartitionProcessorConfiguration>
+<PartitionProfiles kb="CUD" kxe="false">
+    <link href="http://9.1.2.3:12080/rest/api/uom/LogicalPartition/089FFB20-5D19-4A8C-BB80-13650627D985/LogicalPartitionProfile/fb409cc2-c059-3d46-b8ce-f29887c674ba" rel="related"/>
+</PartitionProfiles>
+<PartitionState kb="ROO" kxe="false">not activated</PartitionState>
+<PartitionType kb="COD" kxe="false">AIX/Linux</PartitionType>
+<PartitionUUID kb="ROO" kxe="false">089FFB20-5D19-4A8C-BB80-13650627D985</PartitionUUID>
+<PendingProcessorCompatibilityMode kb="CUD" kxe="false">default</PendingProcessorCompatibilityMode>
+<ProcessorPool kb="CUD" kxe="false" href="http://9.1.2.3:12080/rest/api/uom/ManagedSystem/a168a3ec-bb3e-3ead-86c1-7d98b9d50239/SharedProcessorPool/1c69a812-328e-3a14-b3a5-107a957d6b67" rel="related"/>
+<ProgressPartitionDataRemaining kb="ROR" kxe="false">0</ProgressPartitionDataRemaining>
+<ProgressPartitionDataTotal kb="ROR" kxe="false">0</ProgressPartitionDataTotal>
+<ProgressState kb="ROR" kxe="false">Unknown</ProgressState>
+<ResourceMonitoringControlState kb="ROR" kxe="false">inactive</ResourceMonitoringControlState>
+<AssociatedManagedSystem kb="CUD" kxe="false" href="http://9.1.2.3:12080/rest/api/uom/ManagedSystem/a168a3ec-bb3e-3ead-86c1-7d98b9d50239" rel="related"/>
+<HostEthernetAdapterLogicalPort kb="CUD" kxe="false" schemaVersion="V1_0">
+    <Metadata>
+        <Atom/>
+    </Metadata>
+</HostEthernetAdapterLogicalPort>
+<IsServicePartition kxe="false" kb="CUD">false</IsServicePartition>
+<IsManagementPartition kxe="false" kb="ROR">true</IsManagementPartition>
+<BootMode kxe="false" kb="ROR">Normal</BootMode>
+<RemoteRestartCapable kb="COD" kxe="false">false</RemoteRestartCapable>
+<SimplifiedRemoteRestartCapable kb="COD" kxe="false">true</SimplifiedRemoteRestartCapable>
+<SuspendCapable kb="CUD" kxe="false">false</SuspendCapable>
+<VirtualSCSIClientAdapters kb="CUR" kxe="false">
+    <link href="http://9.1.2.3:12080/rest/api/uom/LogicalPartition/089FFB20-5D19-4A8C-BB80-13650627D985/VirtualSCSIClientAdapter/fc37013c-6fdd-36c7-aa3b-d3f39b903b9b" rel="related"/>
+</VirtualSCSIClientAdapters>
+</LogicalPartition:LogicalPartition>
+    </content>
+</entry>
